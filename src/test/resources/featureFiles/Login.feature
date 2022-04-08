@@ -1,15 +1,17 @@
+@smoke
 Feature: Login features
 
   Background:
     Given the user navigates to the login page
 
-  @smoke
+
   Scenario: the user should able to log in with valid credentials
     When the user enters email
     And the user enters password
     And the user clicks on the Sign in button
     Then the user logs in and lands on "Weavr - Innovator Portal" page
     Then the user logs in with "email", "password" and status code is 200
+
 
   Scenario Outline: the user can not able to log in with invalid credentials (Negative Scenario)
     When the user enters "<email>"
