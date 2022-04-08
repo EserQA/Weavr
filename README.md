@@ -1,5 +1,6 @@
 # Weavr UI & API Testing
   This project created by Cucumber BDD. It has a high reusability and low redundancy with the help of OOP concept in Java.
+## NOTE : In order to prevent security issues, credentials did not share to the remote repo.
 
  ## Structure
   [Pages](https://github.com/EserQA/Weavr/tree/master/src/test/java/io/weavr/pages)
